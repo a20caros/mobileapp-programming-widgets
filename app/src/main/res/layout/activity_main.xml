@@ -27,5 +27,12 @@
         android:layout_marginTop="100dp"
         android:textStyle="bold"/>
 
+    <Button
+        android:id="@+id/button"
+        android:text="Klicka på mig?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
