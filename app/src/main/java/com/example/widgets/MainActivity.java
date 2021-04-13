@@ -6,7 +6,12 @@ import android.widget.Button;
 import android.view.View;
 import android.util.Log;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MainActivity extends AppCompatActivity {
+    private String[] fotbollslagsnamn = {"Våmbs IF","Skövde KIK","Skultorps IF"};
+    private ArrayList<String> listdata=new ArrayList<>(Arrays.asList(fotbollslagsnamn));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
