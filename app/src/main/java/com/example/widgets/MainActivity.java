@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,R.layout.list_textview,R.id.list_textview_xml,listData);
         ListView listView= findViewById(R.id.list_textview_xml);
+        listView.setAdapter(adapter);
 
         EditText editText = findViewById(R.id.edit_text);
         Button my_button = findViewById(R.id.button);
