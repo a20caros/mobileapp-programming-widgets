@@ -9,14 +9,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Välkommen!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginBottom="500dp"
         android:background="#48D1CC"
-        />
+        android:textSize="40sp"/>
 
     <EditText
         android:id="@+id/edit_text"
@@ -28,8 +28,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginBottom="300dp"
-        android:textStyle="bold"
-        android:background="#48D1CC"/>
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/button"
@@ -40,7 +39,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="600dp"
         android:background="#48D1CC"/>
 
 
