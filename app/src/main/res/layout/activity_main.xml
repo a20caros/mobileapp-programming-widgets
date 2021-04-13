@@ -13,7 +13,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="500dp"
+        android:background="#48D1CC"
+        />
 
     <EditText
         android:id="@+id/edit_text"
@@ -24,12 +27,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="100dp"
-        android:textStyle="bold"/>
+        android:layout_marginBottom="300dp"
+        android:textStyle="bold"
+        android:background="#48D1CC"/>
 
     <Button
         android:id="@+id/button"
-        android:text="Klicka på mig?"
+        android:text="Klicka på mig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +41,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="250dp"
-        />
+        android:background="#48D1CC"/>
 
 
 
