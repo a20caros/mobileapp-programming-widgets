@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Välkommen!"
+        android:text="@string/v_lkommen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/edit_text"
-        android:hint="Skriv text!"
+        android:hint="@string/skriv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
 
     <Button
         android:id="@+id/button"
-        android:text="Klicka på mig"
+        android:text="@string/klicka_p_mig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
