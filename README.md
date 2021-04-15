@@ -130,21 +130,21 @@ Ansluter sedan arrayadapter till listviewn med hjälp av variabeln **listView** 
     listView.setAdapter(adapter);
 ```
 
-För att kunna interagera med listviewn skapades det en klicklistner genom att ange variabeln **listView**. Sedan används en **setonitemclicklistener** som hämtar det värdet som är satt ska hända när man klickar på listviewn vilket är att det ska skickas ett toastmeddelande med texten **enter your text here**.
+För att kunna interagera med listviewn skapades det en klicklistner genom att ange variabeln **listView**. Sedan används en **setonitemclicklistener** som hämtar det värdet som är satt ska hända när man klickar på listviewn vilket är att det ska skickas ett toastmeddelande med texten **Det är ett bra fotbollslag**. OnItemcklick är en callback metod som återropas när ett objekt har klickats på. AdapterView är det som kommer att visas ifrån adaptern.
 
 ```
     listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), "Enter your text here", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Det är ett bra fotbollslag!", Toast.LENGTH_SHORT).show();
             }
         });
 ```
 ### Toastmeddelandet när användaren klickar på listview
-![](Listview.png)
+![](Listview)
 
 ### Hela appens utseende med alla funktioner
-![](Appens_utseende.png)
+![](Appens_utseende)
 
 
 
