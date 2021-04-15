@@ -32,7 +32,7 @@ Edittext är en funktion som låter användaren göra en textinmatning. För att
     android:textStyle="bold"/>
 ```
 ### Edittext utseende i appen
-![](Edittext)
+![](Edittext.png)
 
 ## Button
 Det första som lades till i button funktionen var en heigh och width som talar om hur hög och bred knappen ska vara. Det som valdes var wrap-content på grund av att knappen ska anpassa sig efter sin storlek. För att komma åt knappen i java koden angavs det också ett id som fick namnet button. För att knappen också ska vara utformad med en text angavs det attributet text med texten **klicka på mig**. Samma fyra kodrader som för edittext angavs också för button för att placera knappen i mitten. Valde också att styla knappen med en blå färg som matchar resten av appen, samt en margin top för att placera den i rätt höjd.
@@ -141,10 +141,10 @@ För att kunna interagera med listviewn skapades det en klicklistner genom att a
         });
 ```
 ### Toastmeddelandet när användaren klickar på listview
-![](Listview)
+![](Listview.png)
 
 ### Hela appens utseende med alla funktioner
-![](Appens_utseende)
+![](Appens_utseende.png)
 
 
 
