@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        EditText editText = findViewById(R.id.edit_text);
         Button my_button = findViewById(R.id.button);
 
         my_button.setOnClickListener(new View.OnClickListener() {
