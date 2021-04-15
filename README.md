@@ -32,7 +32,7 @@ Edittext är en funktion som låter användaren göra en textinmatning. För att
     android:textStyle="bold"/>
 ```
 ### Edittext utseende i appen
-![](Edittext.png)
+![](Edittext)
 
 ## Button
 Det första som lades till i button funktionen var en heigh och width som talar om hur hög och bred knappen ska vara. Det som valdes var wrap-content på grund av att knappen ska anpassa sig efter sin storlek. För att komma åt knappen i java koden angavs det också ett id som fick namnet button. För att knappen också ska vara utformad med en text angavs det attributet text med texten **klicka på mig**. Samma fyra kodrader som för edittext angavs också för button för att placera knappen i mitten. Valde också att styla knappen med en blå färg som matchar resten av appen, samt en margin top för att placera den i rätt höjd.
@@ -130,7 +130,7 @@ Ansluter sedan arrayadapter till listviewn med hjälp av variabeln **listView** 
     listView.setAdapter(adapter);
 ```
 
-För att kunna interagera med listviewn skapades det en klicklistner genom att ange variabeln **listView**. Sedan används en **setonitemclicklistener** som hämtar det värdet som är satt ska hända när man klickar på listviewn vilket är att det ska skickas ett toast meddelande med texten **enter your text here**.
+För att kunna interagera med listviewn skapades det en klicklistner genom att ange variabeln **listView**. Sedan används en **setonitemclicklistener** som hämtar det värdet som är satt ska hända när man klickar på listviewn vilket är att det ska skickas ett toastmeddelande med texten **enter your text here**.
 
 ```
     listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -140,11 +140,11 @@ För att kunna interagera med listviewn skapades det en klicklistner genom att a
             }
         });
 ```
-### Meddelandet när användaren klickar på listview
-![](Listview.png)
+### Toastmeddelandet när användaren klickar på listview
+![](Listview)
 
 ### Hela appens utseende med alla funktioner
-![](Appens_utseende.png)
+![](Appens_utseende)
 
 
 
