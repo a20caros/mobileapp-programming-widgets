@@ -141,10 +141,10 @@ För att kunna interagera med listviewn skapades det en klicklistner genom att a
         });
 ```
 ### Toastmeddelandet när användaren klickar på listview
-![](Listview)
+![](Listview.png)
 
 ### Hela appens utseende med alla funktioner
-![](Appens_utseende)
+![](Appens_utseende.png)
 
 
 
